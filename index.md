@@ -16,6 +16,7 @@ This is meta.wurstmineberg.de, a list of all Wurstmineberg subdomains and git re
     *   aka: [wurstmineberg.tumblr.com](http://wurstmineberg.tumblr.com/)
 *   [overview.wurstmineberg.de](http://overview.wurstmineberg.de/) — server map
 *   [wiki.wurstmineberg.de](http://wiki.wurstmineberg.de/) — a wiki
+    *   [wikidev.wurstmineberg.de](http://wikidev.wurstmineberg.de/) — for testing new MediaWiki versions and extensions, uses the same database as the main wiki
 
 ## Additional stuff that's totally fine 'n dandy
 
