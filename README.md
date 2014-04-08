@@ -1,4 +1,6 @@
 wurstmineberg.github.io
 =======================
 
-Wurstmineberg meta site (probably)
+Wurstmineberg meta site, used as a sort of sitemap.  
+
+The goal is to collect the many subdomains with their corresponding repositories (if appliccable) in one site, because seriously I can't keep track anymore.
