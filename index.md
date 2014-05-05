@@ -48,7 +48,6 @@ This is meta.wurstmineberg.de, a list of all Wurstmineberg subdomains and git re
 ## Non-HTTP subdomains
 
 *   creative.wurstmineberg.de — the Creative server
-*   ftb.wurstmineberg.de — the Feed The Beast server
 *   tweets.wurstmineberg.de — also not a website. Yet. Maybe. Dunno.
 *   usc.wurstmineberg.de — the Ultra Softcore server
 
