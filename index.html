@@ -2,9 +2,9 @@
 <html>
 
   <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="meta.wurstmineberg.de : This is meta.wurstmineberg.de, a list of all Wurstmineberg subdomains and git repos (there&#39;s quite the overlap)" />
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="meta.wurstmineberg.de : This is meta.wurstmineberg.de, a list of all Wurstmineberg subdomains and git repos (there&#39;s quite the overlap)">
 
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 
@@ -42,14 +42,14 @@
 <td>
 <a href="https://github.com/wurstmineberg">wurstmineberg</a>/<a href="https://github.com/wurstmineberg/wurstmineberg.de">wurstmineberg.de</a>
 </td>
-<td>Main Stuff</td>
+<td>Main stuff</td>
 </tr>
 <tr>
 <td><a href="http://dev.wurstmineberg.de/">dev.wurstmineberg.de</a></td>
 <td>
-<a href="https://github.com/wurstmineberg">wurstmineberg</a>/<a href="https://github.com/wurstmineberg/wurstmineberg.de/tree/dev">wurstmineberg.de/dev</a>
+<a href="https://github.com/wurstmineberg">wurstmineberg</a>/<a href="https://github.com/wurstmineberg/wurstmineberg.de/tree/dev">wurstmineberg.de:dev</a>
 </td>
-<td>For debug reasons, points to /dev branch</td>
+<td>For debug reasons, points to dev branch</td>
 </tr>
 <tr>
 <td>
@@ -59,9 +59,12 @@
 <td>A tumblr with announcements that don't fit in a tweet</td>
 </tr>
 <tr>
-<td><a href="http://overview.wurstmineberg.de/">overview.wurstmineberg.de</a></td>
+<td>
+<a href="http://map.wurstmineberg.de/">map.wurstmineberg.de</a>  <a href="http://overview.wurstmineberg.de/">overview.wurstmineberg.de</a>
+</td>
 <td>—</td>
-<td>Server Map</td>
+<td>Server map, uses <a href="http://mapcrafter.org/">Mapcrafter</a>
+</td>
 </tr>
 <tr>
 <td><a href="http://wiki.wurstmineberg.de/">wiki.wurstmineberg.de</a></td>
@@ -71,7 +74,7 @@
 <tr>
 <td><a href="http://wikidev.wurstmineberg.de/">wikidev.wurstmineberg.de</a></td>
 <td>—</td>
-<td>For testing new MediaWiki versions and extensions, uses the same database as the main wiki</td>
+<td>For testing new MediaWiki versions and extensions, uses a read-only copy of the database</td>
 </tr>
 </tbody>
 </table><h2>
@@ -92,11 +95,25 @@
 <td>A REST API with Minecraft and meta info</td>
 </tr>
 <tr>
+<td><a href="http://devapi.wurstmineberg.de/">devapi.wurstmineberg.de</a></td>
+<td>
+<a href="https://github.com/wurstmineberg">wurstmineberg</a>/<a href="https://github.com/wurstmineberg/api.wurstmineberg.de/tree/dev">api.wurstmineberg.de:dev</a>
+</td>
+<td>API's dev branch, used on dev.wurstmineberg.de</td>
+</tr>
+<tr>
 <td><a href="http://assets.wurstmineberg.de/">assets.wurstmineberg.de</a></td>
 <td>
 <a href="https://github.com/wurstmineberg">wurstmineberg</a>/<a href="https://github.com/wurstmineberg/assets.wurstmineberg.de">assets.wurstmineberg.de</a>
 </td>
 <td>JavaScript, CSS, and other stuff that is used by multiple subdomains</td>
+</tr>
+<tr>
+<td><a href="http://devassets.wurstmineberg.de/">devassets.wurstmineberg.de</a></td>
+<td>
+<a href="https://github.com/wurstmineberg">wurstmineberg</a>/<a href="https://github.com/wurstmineberg/assets.wurstmineberg.de/tree/dev">assets.wurstmineberg.de:dev</a>
+</td>
+<td>Dev branch of the assets, used on dev.wurstmineberg.de</td>
 </tr>
 <tr>
 <td>
@@ -113,6 +130,13 @@
 </td>
 <td>—</td>
 <td>Random screenshots, Chunky renders, home to <a href="https://github.com/wurstmineberg/wurstminestats">wurstminestats</a>-generated plots</td>
+</tr>
+<tr>
+<td><a href="http://playermarkers.wurstmineberg.de/">playermarkers.wurstmineberg.de</a></td>
+<td>
+<a href="https://github.com/wurstmineberg">wurstmineberg</a>/<a href="https://github.com/wurstmineberg/mapcrafter-playermarkers">mapcrafter-playermarkers</a>
+</td>
+<td>Generates the player position markers for the server map</td>
 </tr>
 </tbody>
 </table><h2>
@@ -150,6 +174,15 @@
 </td>
 <td>In-game time and date</td>
 </tr>
+<tr>
+<td>
+<a href="http://alltheitems.wurstmineberg.de/">alltheitems.wurstmineberg.de</a>  <a href="http://ati.wurstmineberg.de/">ati.wurstmineberg.de</a>  <a href="http://items.wurstmineberg.de/">items.wurstmineberg.de</a>
+</td>
+<td>
+<a href="https://github.com/wurstmineberg">wurstmineberg</a>/<a href="https://github.com/wurstmineberg/alltheitems.wurstmineberg.de">alltheitems.wurstmineberg.de</a>
+</td>
+<td>Searchable Minecraft block and item database, work in progress</td>
+</tr>
 </tbody>
 </table><h2>
 <a name="non-web-repos" class="anchor" href="#non-web-repos"><span class="octicon octicon-link"></span></a>Non-web repos</h2>
@@ -167,16 +200,14 @@
 <td>An init script for Minecraft, with some Wurstmineberg-specific extras</td>
 </tr>
 <tr>
-<td>
-<a href="https://github.com/wurstmineberg">wurstmineberg</a>/<a href="https://github.com/wurstmineberg/mcmap">mcmap</a>
-</td>
-<td>Server map generator tool that is eventually supposed to replace Overviewer</td>
+<td><del><a href="https://github.com/wurstmineberg">wurstmineberg</a>/<a href="https://github.com/wurstmineberg/mcmap">mcmap</a></del></td>
+<td><del>Server map generator tool that was eventually supposed to replace Overviewer but has now been replaced by Mapcrafter</del></td>
 </tr>
 <tr>
 <td>
 <a href="https://github.com/wurstmineberg">wurstmineberg</a>/<a href="https://github.com/wurstmineberg/wurstmineberg-autodeploy">wurstmineberg-autodeploy</a>
 </td>
-<td>¯\_(ツ)_/¯ Ask <a href="https://github.com/efrane">eFrane</a>
+<td>¯\_(ツ)_/¯ Ask <a href="https://github.com/eFrane">eFrane</a>
 </td>
 </tr>
 <tr>
@@ -189,8 +220,7 @@
 <td>
 <a href="https://github.com/wurstmineberg">wurstmineberg</a>/<a href="https://github.com/wurstmineberg/wurstminestats">wurstminestats</a>
 </td>
-<td>Data foo with R. Makes plots. And <a href="https://twitter.com/wurstminedata">@wurstminedata</a>
-</td>
+<td>Data foo with R. Makes plots. And <a href="https://twitter.com/wurstminedata">@wurstminedata</a>.</td>
 </tr>
 </tbody>
 </table><h2>
@@ -213,7 +243,7 @@
 <tr>
 <td>usc.wurstmineberg.de</td>
 <td>
-<a href="http://wiki.wurstmineberg.de/USC">Ultra Softcore</a> server, if needed</td>
+<a href="http://wiki.wurstmineberg.de/Ultra_Softcore">Ultra Softcore</a> server, if needed</td>
 </tr>
 <tr>
 <td>tweets.wurstmineberg.de</td>
@@ -256,7 +286,8 @@
 </tr>
 <tr>
 <td><a href="https://twitter.com/wurstminebooks">@wurstminebooks</a></td>
-<td>Because everything needs an *_ebook twitterfeed</td>
+<td>Because everything needs a <a href="https://github.com/mispy/twitter_ebooks">mispybot</a>
+</td>
 </tr>
 </tbody>
 </table>
